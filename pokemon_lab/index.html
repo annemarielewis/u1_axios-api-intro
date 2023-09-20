@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script2.js"></script>
+  </head>
+  <body>
+    <div class="headingArea">
+      <h1>Pokemon Finder</h1>
+      <form>
+        <input
+          type="text"
+          value=""
+          placeholder="Choose your pokemon!"
+          id="inputBar"
+        />
+        <input type="button" value="Click here" id="searchButton" />
+      </form>
+    </div>
+    <header class="box">
+      <h2 class="grey">Your Pokemon's specs</h2>
+      <h2 id="pokemonName"></h2>
+      <img id="pokemonImage" />
+      <h2 id="pokemonType"></h2>
+      <div id="pokemonHeight"></div>
+      <div id="pokemonWeight"></div>
+      <div id="pokemonEXP"></div>
+    </header>
+
+    <div id="pokemonForm"></div>
+  </body>
+</html>
